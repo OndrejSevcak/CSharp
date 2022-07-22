@@ -14,6 +14,7 @@
 
 <h3>CHAR </h3>
 
+- is a VALUE TYPE = it holds a data value within its own memory space (it directly contains the instance of the type, NOT a reference to that instance)
 - .NET System.Char structure type that represents a Unicode UTF-16 character.
 - the default value of the char type is \0, that is, U+0000.
 
