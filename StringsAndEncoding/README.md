@@ -1,4 +1,5 @@
-<h3>Strings in C# </h3>
+<h2>Strings in C# </h2>
+<hr>
 
 - string = sequence of characters
 - character = unicode character in the range U+0000 to U+FFFF
