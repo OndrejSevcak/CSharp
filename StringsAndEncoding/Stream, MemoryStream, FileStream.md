@@ -2,7 +2,9 @@
 
 STREAM = representation of bytes. Flow of data between two places. 
 
-
+<b>FILESTREAM</b>
+- derives from abstrac class Stream
+- READS and WRITES to a FILE
 
 ```csharp
 string text = "Hello";
