@@ -17,7 +17,7 @@ var memoryStream = new MemoryStream(bytesArray);
 ```
 
 ```csharp
-var stream = await _soapService.GetRecord(duid, "OTHER", "cen89977");
+var stream = await _soapService.GetRecord(id);
 StreamReader reader = new StreamReader(stream);
 string text = await reader.ReadToEndAsync();
 ```
