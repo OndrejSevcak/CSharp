@@ -15,3 +15,9 @@ string text = "Hello";
 byte[] bytesArray = Encoding.UTF8.GetBytes(text);
 var memoryStream = new MemoryStream(bytesArray);
 ```
+
+```csharp
+var stream = await _soapService.GetRecord(duid, "OTHER", "cen89977");
+StreamReader reader = new StreamReader(stream);
+string text = await reader.ReadToEndAsync();
+```
